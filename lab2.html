@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    @import "register.css";
+
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
 </head>
 <body><header>
-   <nav ><a href="lab1.html">主页</a> </nav>
+   <nav ><a href="lab1.html"><p>主页</p></a> </nav>
 </header> <h1>创建账户</h1>
 <section>
     <form action="#" method="post">
        <p>
-            请输入用户名<input type="text" name="name" pattern="^[a-zA-Z0-9_]$"  required >
+           请输入用户名组<br/><input type="text" name="name" pattern="^[a-zA-Z0-9_]$"  required >
         </p>
         <p>
-            请输入密码<input type="password" name="password" pattern="^[a-zA-Z0-9]$" required>
+            请输入密码<br/><input type="password" name="password" pattern="^[a-zA-Z0-9]$" required>
         </p>
         <p>
-            请确认密码<input type="password" name="repassword" pattern="^[a-zA-Z0-9]$" required>
+            请确认密码<br/><input type="password" name="repassword" pattern="^[a-zA-Z0-9]$" required>
         </p>
-        <p>您的居住地<br><select>
+        <p>您的居住地<br/><br><select>
             <option value="sd">山东</option>
             <option value="sh" selected="selected">上海</option>
             <option value="zj">浙江</option>
@@ -26,15 +30,15 @@
             <option value="ah">安徽</option>
         </select>
         </p>
-        <p>请输入手机号<input type="text" name="text" pattern="^[1][0-9]{10}$" required> <!--[1][0][0-9]以1开头第2个是0，剩下10个数字，一共12个 -->
+        <p>请输入手机号<br/><input type="text" name="text" pattern="^[1][0-9]{10}$" required> <!--[1][0][0-9]以1开头第2个是0，剩下10个数字，一共12个 -->
         </p>
          <p>
-            常用设备为<br>
-            PC<input type="checkbox" name="device" value="pc"  /><br>
-            PlayStation 4 <input type="checkbox" name="pf" value="pf"  /><br>
-            XBox One<input type="checkbox" name="device" value="xb" /><br>
-            Nintendo <input type="checkbox" name="device" value="ni" /><br>
-            Switch<input type="checkbox" name="device" value="ni" /><br>
+            常用设备为<br/>
+            PC<input type="checkbox" name="device" value="pc"  />
+            PlayStation 4 <input type="checkbox" name="pf" value="pf"  />
+            XBox One<input type="checkbox" name="device" value="xb" />
+            Nintendo <input type="checkbox" name="device" value="ni" />
+            Switch<input type="checkbox" name="device" value="ni" />
         </p>
 
         <p>
