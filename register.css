@@ -2,20 +2,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #1b2838;
-    color: #acb2b8
+    color: #acb2b8;
+    padding-left: 80px;
+    line-height: 30px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
 
 header {
     color: #b8b6b4;
     height: 10%;
     background-color: #171a21;
-    display: flex;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
 }
 input, textarea {
     padding: 0.5em;
     margin: 0.5em 0;
-    width: 35%;
+    width: 33%;
     background-color: #171a21;
     border: #56707f solid 1px;
     border-radius: 3px;
@@ -50,13 +60,6 @@ textarea {
 
 nav {
     margin: auto 3em;
-}
-header {
-    color: #b8b6b4;
-    height: 10%;
-    background-color: #171a21;
-    display: flex;
-    text-align: center;
 }
 
 a {
